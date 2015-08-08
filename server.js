@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var Bear = require('./app/models/bear.js');
 
 // base setup
-mongoose.connect('mongodb://admin:t3st!ng1234@ds059702.mongolab.com:59702/express-example/collection/bears'); // connect to database
+mongoose.connect('mongodb://<db-user>:<db-pword>@ds059702.mongolab.com:59702/express-example/collection/bears'); // connect to database
 
 // configure app to use bodyParser()
 // this will let us get the data from a POST
